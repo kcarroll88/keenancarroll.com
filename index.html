@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+	<title>Keenan Carroll</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+	.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+		background-color: #000;
+		color: #FFF;
+		padding: 1% 0;
+		font-size: 1.2em;
+		border: 0;
+	}
+	.navbar-brand {
+		float: left;
+		max-height: 100px;
+		max-width: 300px;
+		padding: 0;
+	}
+	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+		color: #FFF;
+		background-color: #000;
+	}
+	.navbar-inverse .navbar-nav li a {
+		color: #D5D5D5;
+	}
+	.carousel-caption {
+		top: 50%;
+		transform: translateY(-50%);
+		text-transform: uppercase;
+	}
+	hr.style-two {
+		border: 0;
+		height: 3px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+	.btn {
+		font-size: 18px;
+		color: #FFF;
+		padding: 12px 22px;
+		background: #1f68b7;
+		border: 2px solid #FFF;
+	}
+	.container {
+		margin: 4% auto;
+	}
+	#icon {
+		max-width: 200px;
+		max-height: 200px;
+		margin: 1% auto;
+		padding: 20px;
+	}
+	#icon2 {
+		max-width: 250px;
+		max-height: 250px;
+		margin: 1% auto;
+		padding: 20px;
+		gutters: 30px;
+	}
+	.img-circle {
+		border-radius: 50%;
+	}
+	footer {
+		width: 100%;
+		background-color: #000;
+		padding: 4%;
+		color: #FFF;
+	}
+	.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+	}
+	.fa:hover {
+		color: #D5D5D5;
+		text-decoration: none;
+	}
+	
+	@media (max-width: 900px) {
+		.fa {
+			font-size: 20px;
+			padding: 10px;
+		}
+	}
+	
+	@media (max-width: 600px) {
+		.carousel-caption {
+			display: none;
+		}
+		#icon {
+			max-width: 150px;
+		}		
+	}
+	
+	</style>
+</head>
+
+<body>
+
+	<!--- NavBar --->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<img src="C:/Users/Keenan/Desktop/name.png" class="navbar-brand">
+			</div>
+			<div class="collapse navbar-collapse" id="MyNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!--- Carousel --->
+	<div id="MyCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#MyCarousel" data-slide-to="1"></li>
+			<li data-target="#MyCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="C:/Users/Keenan/Desktop/First.png">
+				<div class="carousel-caption">
+					<h1><strong>Bringing Games to Life</strong></h1>
+					<h4>Level Design && Music Production && Coding</h4>				
+				</div>
+			</div>
+			<div class="item">
+				<img src="C:/Users/Keenan/Desktop/Second.png">
+			</div>
+			<div class="item">
+				<img src="C:/Users/Keenan/Desktop/Third.png">
+			</div>
+		</div>
+		
+		<!--- Carousel Controls --->
+		<a class="left carousel-control" href="#MyCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#MyCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<br />
+	<br />
+	<br />
+	
+	<!--- Horizontal Line --->
+	<div>
+		<hr class="style-two">
+	</div>
+	<div>
+		<h1 class="text-center"><a id="skills"></a><strong>SKILLS</strong></h1>
+	<div>
+	
+	<!--- Horizontal Line --->
+	<div>
+		<hr class="style-two">
+	</div>
+	
+	<!--- Skills --->
+	<div class="container text-center" id="#skills">
+		<div class="row">
+			<h1><strong>Game Engines</strong></h1>
+			<div class="col-sm-6">
+				<img src="C:/Users/Keenan/Desktop/UDK.png" id="icon2">
+				<h4><strong>Unreal Engine 4</strong></h4>
+			</div>
+			<div class="col-sm-6">
+				<img src="C:/Users/Keenan/Desktop/unity.png" id="icon2">
+				<h4><strong>Unity</strong></h4>
+			</div>
+		</div>
+		<br />
+		<br />
+		<br />
+			
+		<div class="row">	
+			<h1><strong>Languages</strong></h1>
+			<div class="col-sm-4">
+				<img src="C:/Users/Keenan/Desktop/CSharp.jpg" id="icon">
+				<h4><strong>C Sharp</strong></h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="C:/Users/Keenan/Desktop/cpp.png" id="icon">
+				<h4><strong>C++</strong></h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="C:/Users/Keenan/Desktop/html.png" id="icon">
+				<h4><strong>HTML 5</strong></h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="C:/Users/Keenan/Desktop/css.jpg" id="icon">
+				<h4><strong>CSS 3</strong></h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="C:/Users/Keenan/Desktop/JS.png" id="icon">
+				<h4><strong>JavaScript</strong><h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="C:/Users/Keenan/Desktop/SQL.png" id="icon">
+				<h4><strong>SQL Server</strong></h4>
+			</div>
+		</div>
+		<br />
+		<br />
+		<br />
+		
+		<div class="row">
+			<h1><strong>Audio DAWs</strong></h1>
+			<div class="col-sm-6">
+				<img src="C:/Users/Keenan/Desktop/Logic.png" id="icon2">
+				<h4><strong>Logic Pro X</strong></h4>
+			</div>
+			<div class="col-sm-6">
+				<img src="C:/Users/Keenan/Desktop/FLStudio.jpg" id="icon2">
+				<h4><strong>FL Studio</strong></h4>
+			</div>
+		</div>
+	</div>
+	<br />
+	
+	<!--- Horizontal Line --->
+	<div>
+		<hr class="style-two">
+	</div>
+	
+	<!--- About --->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h4><a id="about"></a><strong>Full Stack Web Development and Games...</strong></h4>
+				<p>A graduate of The Tech Academy, trained to be a <strong>Full Stack Web Developer</strong> and building more and more experience each day within the Game Development field. I'm persistently continuing my education in the development industry with a can do, will do attitude. Having a background in the arts and <strong>Product Management</strong>, I have a keen eye for detail to put the best product forward always. Communication is one of my strongest personality traits and is paramount to the success of any project.</p>
+				<p>Growing up I was poised to pursue and achieve the end goals of products that I've published. Always being driven to create something <strong>unique and interesting</strong> while keeping <strong>true to the roots</strong> of what made that product great in the first place has always been a foundation of my creativity. The importance of versatility to inspire in the most unlikely places always piqued my interests. All while leading my team and keeping the ship headed straight to the heart. Let's build and create that which is as far to the edges of our mind as we can.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="C:/Users/Keenan/Desktop/computerMobile.jpg" class="img-responsive">
+			</div>
+		</div>	
+	</div>
+	
+	<!--- Dream Jobs --->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<h4><strong>Level Design</strong></h4>
+				<p>I have an eye for detail and great communication skills. The Game Level Design field is what I am very passionate about. Immersion, Quality and Contrast are the top items on my list. Currently, I am harnessing the power of the Unreal Engine 4 and Unity. While having a background in C# and C++, I have a firm understanding of how the building process works from start to finish. Let me help you bring your vision to life.</p>
+			</div>
+			<div class="col-md-3">
+				<img src="C:/Users/Keenan/Desktop/gameController.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-3">
+				<h4><strong>Music Composer</strong></h4>
+				<p>At the age of 10, I began the journey to mold myself into a musician. Starting with drum lessons I was in great hands with a teacher who was concerned with exploring all facets of music genres. Continuing forward I played and recorded with multiple Orchestras, Wind Ensembles, Percussion groups all the way to Jazz bands. I've recorded and composed music from an Internationally touring Metal to Electronic music and reaching as far as Lounge. Quality is something I can provide for you.</p>
+			</div>
+				<div class="col-md-3">
+					<img src="C:/Users/Keenan/Desktop/headphones.jpg" class="img-responsive">
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	<!--- Footer --->
+	<footer class="container-fluid text-center">
+		<div class="row">
+			<div class="col-sm-4">
+				<h3><a id="contact"></a>Contact Me</h3>
+				<p><strong>Phone</strong><a href="tel:+1-857-540-2435"> 857.540.2435</a></p>
+				<p><strong>Email</strong><a href="mailto:hello@keenancarroll.com"> Keenan Carroll</a><p>
+			</div>
+			<div class="col-sm-4">
+				<h3>Connect</h3>
+				<a href="https://www.linkedin.com/in/keenancarrollrealestate/" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				<a href="https://github.com/kcarroll88" class="fa fa-github"></a>
+				<a href="https://www.facebook.com/keenan.carroll" class="fa fa-facebook"></a>
+				<a href="https://twitter.com/KeenanHello?lang=en" class="fa fa-twitter"></a>								
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<img class="img-circle" src='C:/Users/Keenan/Desktop/me.jpg' />
+			</div>	
+		</div>
+	</footer>
+</body>
+</html>
